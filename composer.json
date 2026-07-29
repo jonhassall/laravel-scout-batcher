@@ -13,14 +13,14 @@
   ],
   "license": "MIT",
   "type": "library",
-  "homepage": "https://github.com/jonhassall/laravel-scout-debouncer",
+  "homepage": "https://github.com/jonhassall/laravel-scout-batcher",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonhassall/laravel-scout-debouncer.git"
+    "url": "https://github.com/jonhassall/laravel-scout-batcher.git"
   },
   "support": {
-    "issues": "https://github.com/jonhassall/laravel-scout-debouncer/issues",
-    "source": "https://github.com/jonhassall/laravel-scout-debouncer"
+    "issues": "https://github.com/jonhassall/laravel-scout-batcher/issues",
+    "source": "https://github.com/jonhassall/laravel-scout-batcher"
   },
   "require": {
     "illuminate/console": "^10.0|^11.0|^12.0|^13.0",
