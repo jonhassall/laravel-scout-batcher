@@ -22,6 +22,8 @@ No Redis service is required.
 
 ## Installation
 
+This package is published on Packagist as `jonhassall/laravel-scout-batcher`.
+
 ```bash
 composer require jonhassall/laravel-scout-batcher
 php artisan vendor:publish --tag=scout-batcher-config
