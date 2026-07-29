@@ -35,5 +35,7 @@ jobs:
           php-version: ${{ matrix.php }}
           coverage: none
 
+      - run: composer config --global --no-plugins --no-scripts "policy.advisories.block" false || true
+      - run: composer config --global --no-plugins --no-scripts audit.block-insecure false || true
       - run: composer require --dev "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --with-all-dependencies --no-interaction
       - run: composer test
