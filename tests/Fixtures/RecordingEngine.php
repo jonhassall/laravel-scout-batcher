@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests\Fixtures;
+namespace JonHassall\ScoutBatcher\Tests\Fixtures;
 
 use Laravel\Scout\Engines\NullEngine;
 

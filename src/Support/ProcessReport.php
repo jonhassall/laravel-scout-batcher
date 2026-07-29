@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelScoutDebouncer\Support;
+namespace JonHassall\ScoutBatcher\Support;
 
 /**
  * Stores a summary of the batches processed during a processor run.

@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelScoutDebouncer;
+namespace JonHassall\ScoutBatcher;
 
 use Illuminate\Console\Scheduling\Event;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use LaravelScoutDebouncer\Commands\ProcessPendingScoutUpdates;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
-use LaravelScoutDebouncer\Repositories\DatabasePendingSearchRepository;
+use JonHassall\ScoutBatcher\Commands\ProcessPendingScoutUpdates;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\Repositories\DatabasePendingSearchRepository;
 
 /**
  * Registers the package services, configuration, and scheduled command.

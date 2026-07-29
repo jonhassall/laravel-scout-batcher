@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelScoutDebouncer\Support;
+namespace JonHassall\ScoutBatcher\Support;
 
 use Illuminate\Support\Collection;
 

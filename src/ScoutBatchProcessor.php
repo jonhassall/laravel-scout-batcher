@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelScoutDebouncer;
+namespace JonHassall\ScoutBatcher;
 
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Laravel\Scout\Jobs\RemoveableScoutCollection;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
-use LaravelScoutDebouncer\Events\ScoutBatchFailed;
-use LaravelScoutDebouncer\Events\ScoutBatchProcessed;
-use LaravelScoutDebouncer\Support\ClaimedBatch;
-use LaravelScoutDebouncer\Support\ProcessReport;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\Events\ScoutBatchFailed;
+use JonHassall\ScoutBatcher\Events\ScoutBatchProcessed;
+use JonHassall\ScoutBatcher\Support\ClaimedBatch;
+use JonHassall\ScoutBatcher\Support\ProcessReport;
 use RuntimeException;
 use Throwable;
 

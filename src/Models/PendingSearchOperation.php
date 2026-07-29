@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelScoutDebouncer\Models;
+namespace JonHassall\ScoutBatcher\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

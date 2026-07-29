@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelScoutDebouncer\Contracts;
+namespace JonHassall\ScoutBatcher\Contracts;
 
 use Illuminate\Support\Collection;
-use LaravelScoutDebouncer\Support\ClaimedBatch;
+use JonHassall\ScoutBatcher\Support\ClaimedBatch;
 
 /**
  * Defines how pending Scout operations are stored and claimed for processing.

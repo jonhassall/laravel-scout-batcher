@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests\Unit;
+namespace JonHassall\ScoutBatcher\Tests\Unit;
 
 use Illuminate\Contracts\Cache\Factory as CacheFactory;
 use Illuminate\Contracts\Cache\LockProvider;
-use LaravelScoutDebouncer\Tests\TestCase;
+use JonHassall\ScoutBatcher\Tests\TestCase;
 
 class ProcessPendingScoutUpdatesTest extends TestCase
 {

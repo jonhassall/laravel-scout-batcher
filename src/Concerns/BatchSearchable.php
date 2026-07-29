@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelScoutDebouncer\Concerns;
+namespace JonHassall\ScoutBatcher\Concerns;
 
 use Laravel\Scout\Searchable;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
 
 /**
  * Buffers Scout writes so they can be processed in batches later.

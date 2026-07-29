@@ -36,18 +36,18 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelScoutDebouncer\\": "src/"
+      "JonHassall\\ScoutBatcher\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LaravelScoutDebouncer\\Tests\\": "tests/"
+      "JonHassall\\ScoutBatcher\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelScoutDebouncer\\ScoutDebouncerServiceProvider"
+        "JonHassall\\ScoutBatcher\\ScoutDebouncerServiceProvider"
       ]
     }
   },

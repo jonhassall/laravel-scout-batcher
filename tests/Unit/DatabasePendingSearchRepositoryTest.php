@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests\Unit;
+namespace JonHassall\ScoutBatcher\Tests\Unit;
 
 use Illuminate\Database\Schema\Blueprint;
 use Carbon\CarbonImmutable;
 use Illuminate\Support\Facades\Schema;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
-use LaravelScoutDebouncer\Tests\Fixtures\SearchablePost;
-use LaravelScoutDebouncer\Tests\TestCase;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\Tests\Fixtures\SearchablePost;
+use JonHassall\ScoutBatcher\Tests\TestCase;
 
 class DatabasePendingSearchRepositoryTest extends TestCase
 {

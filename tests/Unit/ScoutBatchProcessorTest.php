@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests\Unit;
+namespace JonHassall\ScoutBatcher\Tests\Unit;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Laravel\Scout\EngineManager;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
-use LaravelScoutDebouncer\ScoutBatchProcessor;
-use LaravelScoutDebouncer\Tests\Fixtures\RecordingEngine;
-use LaravelScoutDebouncer\Tests\Fixtures\SearchablePost;
-use LaravelScoutDebouncer\Tests\TestCase;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\ScoutBatchProcessor;
+use JonHassall\ScoutBatcher\Tests\Fixtures\RecordingEngine;
+use JonHassall\ScoutBatcher\Tests\Fixtures\SearchablePost;
+use JonHassall\ScoutBatcher\Tests\TestCase;
 
 class ScoutBatchProcessorTest extends TestCase
 {

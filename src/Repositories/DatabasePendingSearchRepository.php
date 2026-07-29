@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelScoutDebouncer\Repositories;
+namespace JonHassall\ScoutBatcher\Repositories;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Database\ConnectionInterface;
@@ -9,9 +9,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use LaravelScoutDebouncer\Contracts\PendingSearchRepository;
-use LaravelScoutDebouncer\Models\PendingSearchOperation;
-use LaravelScoutDebouncer\Support\ClaimedBatch;
+use JonHassall\ScoutBatcher\Contracts\PendingSearchRepository;
+use JonHassall\ScoutBatcher\Models\PendingSearchOperation;
+use JonHassall\ScoutBatcher\Support\ClaimedBatch;
 
 /**
  * Persists pending Scout operations in the database and claims them in batches.

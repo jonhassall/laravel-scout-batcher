@@ -34,7 +34,7 @@ Replace Scout's trait on each batched model:
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use LaravelScoutDebouncer\Concerns\BatchSearchable;
+use JonHassall\ScoutBatcher\Concerns\BatchSearchable;
 
 class Product extends Model
 {
@@ -139,8 +139,8 @@ The package reduces application-to-engine request count, but some engines acknow
 
 The package dispatches:
 
-- `LaravelScoutDebouncer\Events\ScoutBatchProcessed`
-- `LaravelScoutDebouncer\Events\ScoutBatchFailed`
+- `JonHassall\ScoutBatcher\Events\ScoutBatchProcessed`
+- `JonHassall\ScoutBatcher\Events\ScoutBatchFailed`
 
 ## How it works
 

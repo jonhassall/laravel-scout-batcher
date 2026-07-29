@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests;
+namespace JonHassall\ScoutBatcher\Tests;
 
 use Carbon\CarbonImmutable;
 use Laravel\Scout\ScoutServiceProvider;
-use LaravelScoutDebouncer\ScoutDebouncerServiceProvider;
+use JonHassall\ScoutBatcher\ScoutDebouncerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

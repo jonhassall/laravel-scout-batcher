@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelScoutDebouncer\Events;
+namespace JonHassall\ScoutBatcher\Events;
 
-use LaravelScoutDebouncer\Support\ClaimedBatch;
+use JonHassall\ScoutBatcher\Support\ClaimedBatch;
 
 /**
  * Fired when a batch of pending Scout updates has been processed successfully.

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelScoutDebouncer\Tests\Unit;
+namespace JonHassall\ScoutBatcher\Tests\Unit;
 
 use Illuminate\Console\Scheduling\Event;
 use Illuminate\Console\Scheduling\Schedule;
-use LaravelScoutDebouncer\ScoutDebouncerServiceProvider;
-use LaravelScoutDebouncer\Tests\TestCase;
+use JonHassall\ScoutBatcher\ScoutDebouncerServiceProvider;
+use JonHassall\ScoutBatcher\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {

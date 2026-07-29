@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelScoutDebouncer\Commands;
+namespace JonHassall\ScoutBatcher\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Cache\Factory as CacheFactory;
 use Illuminate\Contracts\Cache\LockProvider;
-use LaravelScoutDebouncer\ScoutBatchProcessor;
+use JonHassall\ScoutBatcher\ScoutBatchProcessor;
 use RuntimeException;
 
 /**
